@@ -1,7 +1,7 @@
 // create a server with express
 const express = require("express");
 const multer = require("multer");
-const upload = multer({ dest: "uploads" });
+const upload = multer();
 
 const app = express();
 const port = 9000;
